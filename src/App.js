@@ -6,10 +6,6 @@ import Hover from './components/hover.js'
 import Footer from './components/footer.js'
 import Buttons from  './components/buttons.js'
 
-
-import Layout from './pages/layout.js'
-
-
 import Index from './pages/home.js'
 import Aksiya from './pages/aksiya.js'
 import Aksiyalar from './pages/aksiyalar.js'
@@ -30,12 +26,7 @@ import Store from  './pages/stores.js'
 import Conditions from  './pages/guarantee.js'
 import Mehsul from  './pages/mehsul.js'
 
-
-
-
 import {Routes,Route,Link,NavLink} from 'react-router-dom'
-
-
 
 function App() {
   return (
