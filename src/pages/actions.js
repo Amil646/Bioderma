@@ -3,7 +3,7 @@
 
      import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Aksiyalar(argument) {
+function Actions(argument) {
 	return(
 			<>
     < div  className="container justify-content-center"  style={{ minWidth:"1300px",marginBottom:"50px",}}>
@@ -182,4 +182,4 @@ textAlign:"left",color: "#000000",position: "absolute",width: "234px",}}>Sensibi
     </>
     )
 }
-export default Aksiyalar;
+export default Actions;
