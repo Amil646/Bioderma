@@ -1,4 +1,4 @@
-import Baki from '../components/baki.js'
+import Baki from '../components/baku.js'
 import Region from '../components/region.js'
 import {useState} from 'react'
 import '../css/index.css'
