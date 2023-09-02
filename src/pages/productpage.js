@@ -19,7 +19,7 @@ import Information from '../components/information.js'
 import {useState} from 'react'
 
 
-export default  function Mehsul(argument) {
+export default  function Product(argument) {
 		const stil={height:"78px",width:"79px",backgroundColor:"rgba(238, 238, 238, 1)",borderRadius:"4px",border:"none",
           marginLeft:"-32px",marginTop:"20px"}
 		
