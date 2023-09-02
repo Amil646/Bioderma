@@ -7,8 +7,8 @@ import Footer from './components/footer.js'
 import Buttons from  './components/buttons.js'
 
 import Index from './pages/home.js'
-import Aksiya from './pages/action.js'
-import Aksiyalar from './pages/actions.js'
+import Action from './pages/action.js'
+import Actions from './pages/actions.js'
 import Likes from './pages/favourites.js'
 import Notf from './pages/notfound.js'
 import Result from  './pages/result.js'
@@ -24,7 +24,7 @@ import Empty from  './pages/empty.js'
 import Faq from  './pages/faq.js'
 import Store from  './pages/stores.js'
 import Conditions from  './pages/guarantee.js'
-import Mehsul from  './pages/productpage.js'
+import Product from  './pages/productpage.js'
 
 import {Routes,Route} from 'react-router-dom'
 
@@ -45,8 +45,8 @@ function App() {
 <Route path="/blog" element={<Blog />} />
 <Route path="/filter-tapilmadi" element={<Notf />} />
 <Route path="/beyenilenler" element={<Likes />} />
-<Route path="/aksiyalar" element={<Aksiyalar />} />
-<Route path="/aksiya" element={<Aksiya />} />
+<Route path="/aksiyalar" element={<Actions />} />
+<Route path="/aksiya" element={<Action />} />
 <Route path="/brendler" element={<Brand />} />
 <Route path="/axtaris" element={<Result />} />
 <Route path="/hekim-cixislari" element={<Doctors />} />
@@ -54,7 +54,7 @@ function App() {
 <Route path="/faq" element={<Faq />} />
 <Route path="/zemanet-sertleri" element={<Conditions />} />
 <Route path="/magazalar" element={<Store />} />
-<Route path="/mehsul" element={<Mehsul />} />
+<Route path="/mehsul" element={<Product />} />
 
 </Routes>
 
