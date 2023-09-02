@@ -22,7 +22,7 @@
  import 'bootstrap/dist/css/bootstrap.min.css';
  import '../css/App.css'
 
-import Ex from '../components/example.js'
+import Ex from '../components/carousel2.js'
 function Index() {
   const mouseOver= () => {
 
