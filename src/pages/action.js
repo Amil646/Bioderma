@@ -10,7 +10,7 @@
  import sekil21 from  '../sekil/image12.png'
 
 
-function Aksiya(argument) {
+function Action(argument) {
 	return(
 		<>
     < div  className="container justify-content-center"  style={{ minWidth:"1300px",marginBottom:"50px",}}>
@@ -180,4 +180,4 @@ letterSpacing: "0em",}}>14.00 AZN</p>
 		</>
 		)
 }
-export default Aksiya;
+export default Action;
