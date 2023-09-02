@@ -1,6 +1,6 @@
 import './css/App.css';
 import Header from './components/header.js'
-import Navbar from './components/nav.js'
+import Navbar from './components/navigationbar.js'
 import Body from './components/navbar.js'
 import Hover from './components/hover.js'
 import Footer from './components/footer.js'
