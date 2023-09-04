@@ -17,14 +17,14 @@ export default  function Payment(argument) {
  const mouseClick = ()   => { 
    (!klik) ?setKlik(true) : setKlik(false)
       if (!klik) {
-          document.getElementById("reqem").style.height="150px"
+          document.getElementById("1").style.height="150px"
 
-   document.getElementById("reqem").style.border="1px solid rgba(0, 155, 199, 1)"
+   document.getElementById("1").style.border="1px solid rgba(0, 155, 199, 1)"
       }
       else{
-        document.getElementById("reqem").style.height=height
+        document.getElementById("1").style.height=height
 
-   document.getElementById("reqem").style.border=border
+   document.getElementById("1").style.border=border
 
       }
      
@@ -86,7 +86,7 @@ return(
   <div style={{width:"250px",height:"302px",position:"relative",}}>
   <ul style={{listStyle:"none",textAlign:"left",marginLeft:"100px",marginTop:"-5px",position:"relative", }}>
 
- <li  id="reqem" style={{width:"596px",height:"83px",textAlign:"left",marginLeft:"-110px",borderRadius:"6px",border:"1px solid rgba(238, 238, 238, 1)"}} onClick={mouseClick}>
+ <li  id="1" style={{width:"596px",height:"83px",textAlign:"left",marginLeft:"-110px",borderRadius:"6px",border:"1px solid rgba(238, 238, 238, 1)"}} onClick={mouseClick}>
  <h5 style={{fontFamily: "Poppins",width:"145px",height: "24px",lineHeight: "24px",fontSize: "16px",fontWeight:"500",
                     color:"rgba(0, 0, 0, 1)",letterSpacing: "0em",textAlign:"left",marginLeft:"20px",marginTop:"30px"}} >  Mağazadan götür</h5>       
  
