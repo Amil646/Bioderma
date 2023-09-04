@@ -8,8 +8,7 @@ letterSpacing: "0em",}
    const styl={fontFamily: "Poppins",lineHeight: "24px", fontSize: "16px",fontWeight:"500",color:"rgba(35, 38, 47, 1)",
 letterSpacing: "0em",width:"546px",height:"35px",marginLeft:"20px"}
 const stir={marginTop:"-10px",width:"546px",marginLeft:"-20px"}
- const stil1={listStyle:"none",textAlign:"left",fontFamily: "Poppins",lineHeight: "21px",lineHeight: "24px",width:"465px",height:"144px", fontSize: "14px" ,
- fontWeight:"400",color:"rgba(119, 126, 144, 1)",  letterSpacing: "0em",marginTop:"15px",marginBottom:"-50px"}
+
 
 
      const [klik,setKlik]= useState(false);
