@@ -24,6 +24,8 @@
 
 import Ex from '../components/carousel2.js'
 import Discount from '../components/discount.js'
+import More from '../components/more.js'
+
 
 function Index() {
   const mouseOver= () => {
@@ -41,8 +43,9 @@ function Index() {
 
    </div>
     <div className="col-4" style={{marginLeft:"-30px"}}>
-        <a href="/aksiya"  style={{textDecoration:"none"}}> 
-      <Discount/>
+        <a href="/aksiya"  style={{textDecoration:"none"}}>
+
+    <Discount/>
     </a></div>
    </div>
 
@@ -58,11 +61,8 @@ textAlign:"left",
 color:"#009BC7",
 fontWeight: "400",
 marginLeft:"95px",}}>Endirimli məhsullar</h4>
-      <div id="box" style={{ width:"217px",
-        position: "relative",
-        borderBottom: "3px solid  #009BC7",
-        marginLeft:"95px",
-        marginTop: "-15px",}}></div>
+      <div id="box" style={{ width:"217px", position: "relative", borderBottom: "3px solid  #009BC7",
+        marginLeft:"95px", marginTop: "-15px",}}></div>
         </div>
 
 <div className="col text-center" style={{ width:"147px",marginLeft:"760px"}}>
@@ -292,21 +292,11 @@ letterSpacing: "0em",}}>14.00 AZN</p>
 </div>
 </div>
 </div></div>
-<div className="container justify-content-center" style={{ minWidth:"1300px",width:"1300px",}}>
- <div className="row my-5" style={{ width:"1300px",marginLeft:"-60px"}}>
- <div className="col-6  mb-2" >
-  <a href="/faydali" > 
-  <img src={sekil4} height="400px" width="575px" className="hover-item"   style={{marginLeft:"85px",}}/></a>
-      
-    </div>
-    <div className="col-6" >
-      <a href="/hekim-cixislari">
-      <img src={sekil5} height="400px"  width="575px" className="hover-item"   style={{marginLeft:"30px",}}/></a>
-      </div>
-   
+     <div className="container justify-content-center" style={{ minWidth:"1300px",width:"1300px",}}>
+<More/>
   </div>
  
-  </div>
+  
   <div className="justify-content-center mb-5 text-center">
       <a href="/blog" className="btn btn-outline-info" style={{ height:"45px", width: "278px", fontFamily: "Poppins", fontSize: "18px", fontWeight: "400",fontFamily: "Poppins",
 lineHeight: "27px",
