@@ -1,4 +1,6 @@
 import {useState,useEffect} from 'react'
+import Text from './faq-text.js'
+
 
  export default function Support(style) {
   const stip={position:"absolute",marginLeft:"-20px",fontFamily: "Poppins",lineHeight: "24px", fontSize: "16px",fontWeight:"500",color:"rgba(119, 126, 144, 1",
@@ -57,30 +59,18 @@ return(
   fontSize: "10px",fontWeight:"400",color:"rgba(0, 0, 0, 1)",letterSpacing: "0em",position:"absolute",marginLeft:"100px",marginTop:"30px",overflow:"hidden",overflowY:"scroll"}}>
  <li   onMouseOver={() => click("rgba(55, 114, 255, 1)")} onMouseOut={() => click("rgba(119, 126, 144, 1")} onClick={mouseClick}>
  <p style={stip} id="reqem">01</p><p   style={styl}> How can i set up a new website? </p>  
-  { klik && ( <>
- <p  style={stil1}>Lorem Ipsum is simply
-   dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled. </p> 
- </>
- )}
+  { klik && ( <Text/> )}
  <hr style={stir}/></li>
+	 
  <li   onMouseOver={() => click2("rgba(55, 114, 255, 1)")} onMouseOut={() => click2("rgba(119, 126, 144, 1")} onClick={mouseClick2} >
  <p style={stip} id="reqem2">02</p> <p style={styl} > How can i set up a new website?     </p>  
-  { klik2 && ( <>
- <p  style={stil1}>Lorem Ipsum is simply
-   dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled. </p> 
- </>
- )}
+  { klik2 && ( <Text/> )}
  <hr style={stir}/></li>
+	 
  <li   onMouseOver={() => click3("rgba(55, 114, 255, 1)")} onMouseOut={() => click3("rgba(119, 126, 144, 1")}  onClick={mouseClick3}>
   <p style={stip} id="reqem3">03</p><p  style={styl}> How can i set up a new website?    </p>  
-  { klik3 && ( <>
- <p  style={stil1}>Lorem Ipsum is simply 
-  dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-  printer took a galley of type and scrambled. </p> 
- </>
- )}
+  { klik3 && ( <Text/> )}
+	 
 </li> 
 
    </ul>
