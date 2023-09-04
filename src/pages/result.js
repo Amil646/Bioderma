@@ -6,6 +6,8 @@
   import sekil42 from  '../sekil/img 2.png'
   import sekil43 from  '../sekil/img 3.png'
   import sekil44 from  '../sekil/img 4.png'
+  import More from '../components/more.js'
+
 function Result(argument) {
     const reng1 = ()   => { 
      document.getElementById("1").style.color="rgba(107, 172, 200, 1)"
@@ -179,18 +181,7 @@ lineHeight: "21px",fontSize: "14px",fontWeight:"500"}}>Cicabio Serum</a>
     </div>
     </div>
     <div className="container justify-content-center" style={{ minWidth:"1300px",width:"1300px",}}>
- <div className="row my-5" style={{ width:"1300px",marginLeft:"-60px"}}>
- <div className="col-6  mb-2" >
-  <a href="/faydali"> 
-  <img src={sekil4} height="400px" width="575px"   className="hover-item"  style={{marginLeft:"85px",}}/></a>
-      
-    </div>
-    <div className="col-6" >
-      <a href="/hekim-cixislari" >
-      <img src={sekil5} height="400px"  width="575px"  className="hover-item"  style={{marginLeft:"30px",}}/></a>
-      </div>
-   
-  </div>
+ <More/>
  
   </div>
   <div className="justify-content-center mb-5 text-center">
@@ -205,12 +196,6 @@ color: "#009BC7",textDecoration: "none", marginLeft:"100px"}}>
    Daha çox</a>
 
   </div>
-
-
-
-
-
-
 
 
 
