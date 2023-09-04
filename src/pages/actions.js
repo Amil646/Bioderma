@@ -1,7 +1,6 @@
  import sekil2 from  '../sekil/img41.png'
   import sekil21 from  '../sekil/image12.png'
 import Discount from '../components/discount.js'
-import Discount2 from '../components/discount2.js'
 import Detailed from '../components/detailed.js'
 
 
@@ -27,10 +26,10 @@ function Aksiyalar(argument) {
      <Discount/>
 
     </div>
-     <div className="col-3" style={{marginLeft:"-20px"}}  >
-       <Discount2/>
+    <div className="col-4"   style={{marginLeft:"-45px"}} >
+     <Discount/>
 
-    </div>  
+    </div>
       </div>
     </div>
    
@@ -60,8 +59,9 @@ function Aksiyalar(argument) {
    <Discount/>
  
     </div>
-     <div className="col-3" style={{marginLeft:"-20px"}}   >
-       <Discount2/>
+      <div className="col-4"   style={{marginLeft:"-45px"}} >
+     <Discount/>
+
     </div>
     </div></div>
     
