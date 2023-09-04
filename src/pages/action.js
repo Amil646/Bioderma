@@ -9,23 +9,22 @@
  import sekil2 from  '../sekil/img41.png'
  import sekil21 from  '../sekil/image12.png'
  import Discount from '../components/discount.js'
+import Choose from '../components/choose.js'
 
 
-function Action(argument) {
+function Aksiya(argument) {
 	return(
 		<>
     < div  className="container justify-content-center"  style={{ minWidth:"1300px",marginBottom:"50px",}}>
         <h5 style={{fontFamily: "Poppins",width:"242px",height: "21px",lineHeight: "21px",fontSize: "18px",fontWeight:"500",
-                    color:"rgba(0, 0, 0, 1)",letterSpacing: "0em",textAlign:"left",marginLeft:"45px"}}> Aksiyalar və kompaniyalar</h5>
+                    color:"rgba(0, 0, 0, 1)",letterSpacing: "0em",textAlign:"left",marginLeft:"50px"}}> Aksiyalar və kompaniyalar</h5>
     </div>
-
-
 
 
 
     <div className="container justify-content-center" style={{ minWidth:"1300px",width:"1300px",marginTop:"-20px",}}>
   <div className="row " style={{marginLeft:"-80px"}}>
- <div className="col-4"    style={{marginLeft:"80px"}}>
+  <div className="col-4"    style={{marginLeft:"80px"}}>
    <Discount/>
  
     </div>
@@ -66,97 +65,7 @@ fontSize: "14px",color:"rgba(117, 117, 117, 1)"}}>Həssas dərilər daxil bütü
     </div>
 <br/>
 <div className="container justify-content-center"  style={{minWidth: "1300px"}}>
-  <div className="row" style={{marginLeft:"-65px"}}>
-    <div className="col-3" >
-<div className="card-borderless" style={{ width:"278px", marginLeft:"95px",}}>
-  <img src={sekil3} className="card-img-top "   width="278px" height="278px"/>
-  <div style={{ width: "122px",height:"26px", background:"#DB3333", borderRadius: "4px", marginLeft: "120px", marginTop: "-268px", position: "absolute"}}>
-    <p style={{ color: "white",  textAlign:"center"  ,fontFamily: 'Poppins', padding: "4px 8px ",
-fontStyle: "normal",
-fontSize: "12px",
-lineHeight: "18px", fontWeight: "400"}}
->Pulsuz çatdırılma</p></div>
-  <div className="card-body">
-<p className="card-title  text-muted"    style={{ textAlign:"left"}}                   >Bioderma</p>
-  <h5 className="card-text"   style={{ textAlign:"left",marginTop:"10px"}}>Sensio Micellar water, 1 l</h5><br/>
-          <p className="card-text" style={{color: "#444A51" , textAlign: "left" ,fontFamily: "Poppins", fontSize: "18px", fontWeight: "500",
-lineHeight:"21px",
-letterSpacing: "0em",}}>14.00 AZN</p>
-
-
-    <a href="/mehsul" className="btn btn-outline-info" style={{ height:"45px", width: "278px", fontFamily: "Poppins", fontSize: "18px", fontWeight: "400"}}>
-     Səbətə at<img  src={icon1} height="24px "   width="24px "      style={{marginLeft: "10px" }}/></a>
-  </div>
-</div>
-</div>
-   <div className="col-3" >
-<div className="card-borderless" style={{ width:"278px", marginLeft:"65px",}}>
-  <img src={sekil31}className="card-img-top "   width="278px" height="278px"/>
-  <div style={{ width: "122px",height:"26px", background:"#DB3333", borderRadius: "4px", marginLeft:"120px",marginTop: "-268px", position: "absolute"}}>
-    <p style={{ color: "white",  textAlign:"center"  ,fontFamily: 'Poppins', padding: "4px 8px ",
-fontStyle: "normal",
-fontSize: "12px",
-lineHeight: "18px", fontWeight: "400"}}
->Pulsuz çatdırılma</p></div>
-  <div className="card-body">
-<p className="card-title  text-muted"    style={{ textAlign:"left"}}                   >Bioderma</p>
-  <h5 className="card-text"   style={{ textAlign:"left",marginTop:"10px"}}>Sensio Micellar water, 1 l</h5><br/>
-          <p className="card-text" style={{color: "#444A51" , textAlign: "left" ,fontFamily: "Poppins", fontSize: "18px", fontWeight: "500",
-lineHeight:"21px",
-letterSpacing: "0em",}}>14.00 AZN</p>
-
-
-    <a href="/mehsul" className="btn btn-outline-info" style={{ height:"45px", width: "278px", fontFamily: "Poppins", fontSize: "18px", fontWeight: "400"}}>
-     Səbətə at<img  src={icon1} height="24px "   width="24px "      style={{marginLeft: "10px" }}/></a>
-  </div>
-</div>
-</div>
-   <div className="col-3" >
-<div className="card-borderless" style={{ width:"278px", marginLeft:"28px",}}>
-  <img src={sekil32} className="card-img-top "   width="278px" height="278px"/>
-  <div style={{ width: "122px",height:"26px", background:"#DB3333", borderRadius: "4px", marginLeft: "120px", marginTop: "-268px", position: "absolute"}}>
-    <p style={{ color: "white",  textAlign:"center"  ,fontFamily: 'Poppins', padding: "4px 8px ",
-fontStyle: "normal",
-fontSize: "12px",
-lineHeight: "18px", fontWeight: "400"}}
->Pulsuz çatdırılma</p></div>
-  <div className="card-body">
-<p className="card-title  text-muted"    style={{ textAlign:"left"}}                   >Bioderma</p>
-  <h5 className="card-text"   style={{ textAlign:"left",marginTop:"10px"}}>Sensio Micellar water, 1 l</h5><br/>
-          <p className="card-text" style={{color: "#444A51" , textAlign: "left" ,fontFamily: "Poppins", fontSize: "18px", fontWeight: "500",
-lineHeight:"21px",
-letterSpacing: "0em",}}>14.00 AZN</p>
-
-
-
-    <a href="/mehsul" className="btn btn-outline-info" style={{ height:"45px", width: "278px", fontFamily: "Poppins", fontSize: "18px", fontWeight: "400"}}>
-     Səbətə at<img  src={icon1} height="24px "   width="24px "      style={{marginLeft: "10px" }}/></a>
-  </div>
-</div>
-</div>
-   <div className="col-3" >
-<div className="card-borderless" style={{ width:"278px", marginLeft:"-10px",}}>
-  <img src={sekil33}className="card-img-top "   width="278px" height="278px"/>
-  <div style={{ width: "122px",height:"26px", background:"#DB3333", borderRadius: "4px", marginLeft: "120px", marginTop: "-268px", position: "absolute"}}>
-    <p style={{ color: "white",  textAlign:"center"  ,fontFamily: 'Poppins', padding: "4px 8px ",
-fontStyle: "normal",
-fontSize: "12px",
-lineHeight: "18px", fontWeight: "400"}}
->Pulsuz çatdırılma</p></div>
-  <div className="card-body">
-<p className="card-title  text-muted"    style={{ textAlign:"left"}}                   >Bioderma</p>
-  <h5 className="card-text"   style={{ textAlign:"left",marginTop:"10px"}}>Sensio Micellar water, 1 l</h5><br/>
-          <p className="card-text" style={{color: "#444A51" , textAlign: "left",fontFamily: "Poppins", fontSize: "18px", fontWeight: "500",
-lineHeight:"21px",
-letterSpacing: "0em",}}>14.00 AZN</p>
-
-
-    <a href="/mehsul" className="btn btn-outline-info" style={{ height:"45px", width: "278px", fontFamily: "Poppins", fontSize: "18px", fontWeight: "400"}}>
-     Səbətə at<img  src={icon1} height="24px "   width="24px "      style={{marginLeft: "10px" }}/></a>
-  </div>
-</div>
-</div>
-</div></div>
+ <Choose/></div>
 <br/><br/>
 <br/>
 <br/>
@@ -165,4 +74,4 @@ letterSpacing: "0em",}}>14.00 AZN</p>
 		</>
 		)
 }
-export default Action;
+export default Aksiya;
