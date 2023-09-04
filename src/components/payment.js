@@ -2,6 +2,8 @@
 import {useState,useEffect} from 'react'
 import Text from './guarantee-text.js'
 export default  function Payment(argument) {
+  const stil={width:"28px",height:"28px",borderRadius:"90px",backgroundColor:"rgba(238, 238, 238, 1)",border:"none",
+                position:"absolute",marginLeft:"545px",marginTop:"-35px"}
 
   const [klik,setKlik]= useState(false);
     const [klik2,setKlik2]= useState(false);
@@ -88,7 +90,7 @@ return(
  <h5 style={{fontFamily: "Poppins",width:"145px",height: "24px",lineHeight: "24px",fontSize: "16px",fontWeight:"500",
                     color:"rgba(0, 0, 0, 1)",letterSpacing: "0em",textAlign:"left",marginLeft:"20px",marginTop:"30px"}} >  Mağazadan götür</h5>       
  
-<div style={{width:"28px",height:"28px",borderRadius:"90px",backgroundColor:"rgba(238, 238, 238, 1)",border:"none",position:"absolute",marginLeft:"545px",marginTop:"-35px"}}>
+<div style={stil}>
 <img src={icon} height="12px" width="12px" style={{marginLeft:"9px"}}/>
 
 </div>
@@ -103,7 +105,7 @@ return(
  <h5 style={{fontFamily: "Poppins",width:"151px",height: "24px",lineHeight: "24px",fontSize: "16px",fontWeight:"500",
                     color:"rgba(0, 0, 0, 1)",letterSpacing: "0em",textAlign:"left",marginLeft:"20px",marginTop:"30px"}}> Ünvana çatdırılma</h5> 
                    
-<div style={{width:"28px",height:"28px",borderRadius:"90px",backgroundColor:"rgba(238, 238, 238, 1)",border:"none",position:"absolute",marginLeft:"545px",marginTop:"-35px"}}>
+<div style={stil}>
 <img src={icon} height="12px" width="12px" style={{marginLeft:"9px"}}/>
 </div>
 { klik2 && <Text/>
@@ -114,7 +116,7 @@ return(
  <h5 style={{fontFamily: "Poppins",width:"129px",height: "24px",lineHeight: "24px",fontSize: "16px",fontWeight:"500",
                                       color:"rgba(0, 0, 0, 1)",letterSpacing: "0em",textAlign:"left",marginLeft:"20px",marginTop:"30px"}}> Təcili çatdırılma</h5>
 
-<div style={{width:"28px",height:"28px",borderRadius:"90px",backgroundColor:"rgba(238, 238, 238, 1)",border:"none",position:"absolute",marginLeft:"545px",marginTop:"-35px"}}>
+<div style={stil}>
 <img src={icon} height="12px" width="12px" style={{marginLeft:"9px"}}/>
 </div>
 { klik3 && <Text/>
@@ -125,7 +127,7 @@ return(
  <h5 style={{fontFamily: "Poppins",width:"43px",height: "24px",lineHeight: "24px",fontSize: "16px",fontWeight:"500",
                     color:"rgba(0, 0, 0, 1)",letterSpacing: "0em",textAlign:"left",marginLeft:"20px",marginTop:"30px"}}> Label</h5>
                    
-<div style={{width:"28px",height:"28px",borderRadius:"90px",backgroundColor:"rgba(238, 238, 238, 1)",border:"none",position:"absolute",marginLeft:"545px",marginTop:"-35px"}}>
+<div style={stil}>
 <img src={icon} height="12px" width="12px" style={{marginLeft:"9px"}}/>
 </div>
 { klik4 && <Text/>
