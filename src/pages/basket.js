@@ -8,6 +8,9 @@ import card from '../sekil/card.png'
 import icon33 from '../sekil/perfect.png'
 
 import Application from  '../components/calculator.js'
+import Order from  '../components/order.js'
+
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Basket(argument) {
@@ -52,7 +55,7 @@ return(
  
   < div  className="container justify-content-center"  style={{ minWidth:"1300px",marginBottom:"50px",}}>
   {klik &&
-    <div style={{marginLeft:"50px",zIndex:"2",marginTop:"-160px",position:"absolute",minWidth:"1300px",marginLeft:"350px"}}> 
+    ( <div style={{marginLeft:"50px",zIndex:"2",marginTop:"-160px",position:"absolute",minWidth:"1300px",marginLeft:"350px"}}> 
     
  < div  className="container justify-content-center"  style={{ minWidth:"1300px",marginBottom:"50px",textAlign:"center",}}>
 
@@ -87,16 +90,16 @@ return(
             letterSpacing: "0em",}}> Ödəniş etmə üsulu</label><br/><br/>
 
                          <div style={{width:"418px",height:"64px",backgroundColor:"white",borderRadius:"6px",border:"1px solid rgba(238, 238, 238, 1)"}}>
-                                <label htmLfor="car1" style={{marginTop:"20px",marginLeft:"20px",width:"278px",fontFamily: "Poppins",lineHeight: "22px",
+                                <label htmLfor="car2" style={{marginTop:"20px",marginLeft:"20px",width:"278px",fontFamily: "Poppins",lineHeight: "22px",
                                 fontSize: "14px",fontWeight:"500",color:"rgba(0, 0, 0, 1)",
             letterSpacing: "0em",}}><img src={car} height="24px" width="24px"  style={{marginRight:"20px"}} />Çatdırılma zamanı nağd ödəniş et</label>
-                                <input type="radio" id="car1" name="car"  style={{marginLeft:"80px"}}  />
+                                <input type="radio" id="car2" name="cars"  style={{marginLeft:"80px"}}  />
                              
                               </div>
                               <div style={{width:"418px",height:"64px",backgroundColor:"white",borderRadius:"6px",border:"1px solid rgba(238, 238, 238, 1)",marginTop:"20px"}}>
-                                <label htmLfor="car1" style={{marginTop:"20px",marginLeft:"20px",fontFamily: "Poppins",width:"278px",lineHeight: "22px",fontSize: "14px",fontWeight:"500",
+                                <label htmLfor="car3" style={{marginTop:"20px",marginLeft:"20px",fontFamily: "Poppins",width:"278px",lineHeight: "22px",fontSize: "14px",fontWeight:"500",
                                 color:"rgba(0, 0, 0, 1)",    letterSpacing: "0em",}}><img src={card} height="24px" width="24px"  style={{marginRight:"20px"}} />Onlayn ödəniş et</label>
-                                <input type="radio" id="car1" name="car"  style={{marginLeft:"80px"}}  />
+                                <input type="radio" id="car3" name="cars"  style={{marginLeft:"80px"}}  />
                              
                               </div>
                                  </div><br/><br/><br/><br/>
@@ -109,7 +112,7 @@ return(
 
 
 
-</div>
+</div>)
    }
    { klik2 && 
     <div style={{marginLeft:"350px",zIndex:"2",position:"absolute"}}> 
@@ -152,53 +155,45 @@ return(
    
 
     
-    { klik3 &&
-    <>
-     <div className="col-4 text-start" style={{marginLeft:"-13px"}}>
-        <img src={frame} height="278px" width="278px"/>
-          </div>
-    
-          <div className="col-4 text-start">
-          <p style={{color: "rgba(117, 117, 117, 1)",width:"100px",lineHeight:"20px",textAlign:"left"  ,fontFamily: 'Poppins',fontStyle: "normal",
-    fontWeight: "600",fontSize: "16px",marginLeft:"20px",marginTop:"40px"}}>Bioderma</p>
-    <button type="button" onClick={remove}  style={{textAlign:"right",padding:"8px",background:"rgba(238, 238, 238, 1)",border:"1px solid rgba(238, 238, 238, 1)",
-               width:"50px",height:"50px",borderRadius:"10px",marginLeft:"500px",marginTop:"-40px",position:"absolute"}}><img src={icon} height="32px" width="32px" />
-    </button>
-    
-    <div style={{width:"500px",height:"72px",marginLeft:"20px",lineHeight:"22px",textAlign:"left"  ,fontFamily: 'Poppins',fontStyle:"bold",
-    fontWeight: "600",fontSize: "18px",}}>
-    <b>Sensibio Micellar water, 1 l, 500 ml</b> 
-    </div>
-     <div style={{ width: "87px",height:"26px", background:"rgba(0, 155, 199, 1)", borderRadius: "4px", marginLeft: "20px",marginTop:"-30px"}}>
-        <p style={{ color: "white",  textAlign:"center"  ,fontFamily: 'Poppins', padding: "4px 8px ",
-    fontStyle: "normal",fontSize: "14px",lineHeight: "18px", fontWeight: "400"}}
-    >Çox satılan</p></div><br/><br/><br/><br/>
-    <div style={{textAlign:"left",marginLeft:"20px",marginTop:"-50px"}}>
-    <p style={{color: "rgba(155, 155, 155, 1)",fontFamily: 'Poppins',fontStyle: "normal",fontSize: "14px",
-      lineHeight: "18px", fontWeight: "400",textDecoration:"line-through",position:"absolute",marginLeft:"140px",marginTop:"15px"}}>20.00 AZN </p> 
-        <b style={{textDecoration:"none",lineHeight:"21px",fontFamily: 'Poppins',width:"100px",
-      fontStyle:"bold",fontWeight: "500",fontSize: "18px",color:"black",marginLeft:"220px",marginTop:"13px",position:"absolute"}}>14.00 AZN</b> 
-      <Application/>
-     
-    </div>
-          </div>
-          </>}
+
+      { klik3 &&
+           ( <>
+           <div className="col-4 text-start" style={{marginLeft:"-13px"}}>
+                   <img src={frame} height="278px" width="278px"/>
+                     </div>
+               
+                     <div className="col-4 text-start">
+                     <p style={{color: "rgba(117, 117, 117, 1)",width:"100px",lineHeight:"20px",textAlign:"left"  ,fontFamily: 'Poppins',fontStyle: "normal",
+               fontWeight: "600",fontSize: "16px",marginLeft:"20px",marginTop:"40px"}}>Bioderma</p>
+               <button type="button" onClick={remove}  style={{textAlign:"right",padding:"8px",background:"rgba(238, 238, 238, 1)",border:"1px solid rgba(238, 238, 238, 1)",
+                          width:"50px",height:"50px",borderRadius:"10px",marginLeft:"500px",marginTop:"-40px",position:"absolute"}}><img src={icon} height="32px" width="32px" />
+               </button>
+               
+               <div style={{width:"500px",height:"72px",marginLeft:"20px",lineHeight:"22px",textAlign:"left"  ,fontFamily: 'Poppins',fontStyle:"bold",
+               fontWeight: "600",fontSize: "18px",}}>
+               <b>Sensibio Micellar water, 1 l, 500 ml</b> 
+               </div>
+                <div style={{ width: "87px",height:"26px", background:"rgba(0, 155, 199, 1)", borderRadius: "4px", marginLeft: "20px",marginTop:"-30px"}}>
+                   <p style={{ color: "white",  textAlign:"center"  ,fontFamily: 'Poppins', padding: "4px 8px ",
+               fontStyle: "normal",fontSize: "14px",lineHeight: "18px", fontWeight: "400"}}
+               >Çox satılan</p></div><br/><br/><br/><br/>
+               <div style={{textAlign:"left",marginLeft:"20px",marginTop:"-50px"}}>
+               <p style={{color: "rgba(155, 155, 155, 1)",fontFamily: 'Poppins',fontStyle: "normal",fontSize: "14px",
+                 lineHeight: "18px", fontWeight: "400",textDecoration:"line-through",position:"absolute",marginLeft:"140px",marginTop:"15px"}}>20.00 AZN </p> 
+                   <b style={{textDecoration:"none",lineHeight:"21px",fontFamily: 'Poppins',width:"100px",
+                 fontStyle:"bold",fontWeight: "500",fontSize: "18px",color:"black",marginLeft:"220px",marginTop:"13px",position:"absolute"}}>14.00 AZN</b> 
+                 <Application/>
+                
+               </div>
+                     </div>
+                     </> 
+                     )
+      }
           
           </div>
            <div className=" text-start justify-content-end" style={{marginLeft:"950px",width:"277px",
            height:"277px",position:"absolute",marginTop:"-278px",borderRadius:"10px",border:"1px solid rgba(0, 155, 199, 1)"}}>
-                 <h5 style={{fontFamily: "Poppins",width:"242px",height: "21px",lineHeight: "21px",fontSize: "18px",fontWeight:"600",
-                        color:"rgba(0, 0, 0, 1)",letterSpacing: "0em",textAlign:"left",marginLeft:"20px",marginTop:"20px"}}> Səbətdəki məhsullar</h5><br/>
-                       <pre style={{marginLeft:"20px",fontFamily: "Poppins",lineHeight: "18px",fontSize: "12px",fontWeight:"400",
-                        color:"rgba(155, 155, 155, 1)",letterSpacing: "0em",}}>Məhsulların qiyməti:                        <b style={{fontFamily: "Poppins", 
-                        lineHeight: "21px",fontSize: "12px",fontWeight:"500",color:"rgba(68, 74, 81, 1)",letterSpacing: "0em",}}> 40.00 AZN</b></pre>
-                        <pre style={{marginLeft:"20px",fontFamily: "Poppins",lineHeight: "18px",fontSize: "12px",fontWeight:"400",
-                        color:"rgba(155, 155, 155, 1)",letterSpacing: "0em",}}>Endirim                                            <b style={{fontFamily: "Poppins", 
-                        lineHeight: "21px",fontSize: "12px",fontWeight:"500",color:"rgba(68, 74, 81, 1)",letterSpacing: "0em",}}> -12.00 AZN</b></pre>
-                        <hr style={{width:"237px",marginLeft:"20px",backgroundColor:"rgba(238, 238, 238, 1)"}}/>
-                        <pre style={{marginLeft:"20px",fontFamily: "Poppins",lineHeight: "21px",fontSize: "14px",fontWeight:"500",
-                        color:"rgba(0, 155, 199, 1)",letterSpacing: "0em",}}>Toplam qiymət:                   <b style={{fontFamily: "Poppins", 
-                        lineHeight: "21px",fontSize: "16px",fontWeight:"600",color:"rgba(68, 74, 81, 1)",letterSpacing: "0em",}}>28.00 AZN</b></pre><br/>
+               <Order/>
                          
                          <button    type="button" onClick={click}  style={{width:"237px",height:"45px",borderRadius:"4px", lineHeight: "21px",fontSize: "16px",
                           fontWeight:"400",border:"none",marginLeft:"20px",marginTop:"-10px" ,backgroundColor:"rgba(0, 155, 199, 1)",
