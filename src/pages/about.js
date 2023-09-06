@@ -12,15 +12,15 @@ return(
 
     <div className="col-4 " >
      <a href="/sertifikat" className="btn active "target=".self" style={{ borderRadius:"100px",border:"1px solid rgba(53, 57, 69, 1)",color:"rgba(53, 57, 69, 1)" ,
-     width:"170px",height:"27px", fontFamily: "Poppins", fontSize: "12px", fontWeight: "500",paddingTop:"5px",}}>Uğur və sertifikatlar</a>
+     width:"170px",height:"27px", fontFamily: "Poppins", fontSize: "10px", fontWeight: "500",paddingTop:"5px",}}>Uğur və sertifikatlar</a>
      </div>
     <div className="col-4" >               
    <a href="/brendler" className="btn active"   style={{borderRadius:"100px",border:"1px solid rgba(53, 57, 69, 1)",color:"rgba(53, 57, 69, 1)" ,width:"115px",height:"27px",
-   fontFamily: "Poppins", fontSize: "12px", fontWeight: "500",marginLeft:"40px",paddingTop:"5px"}}> Brendlər</a>
+   fontFamily: "Poppins", fontSize: "10px", fontWeight: "500",marginLeft:"40px",paddingTop:"5px"}}> Brendlər</a>
 </div>
     <div className="col-4" >  
    <a href="#" className="btn "  style={{borderRadius:"100px",border:"none",color:"white", width:"145px",height:"27px",
-   fontFamily: "Poppins", fontSize: "12px", fontWeight: "500",marginLeft:"30px",paddingTop:"5px",backgroundColor:"rgba(0, 155, 199, 1)"}}> Şirkət haqqında</a>
+   fontFamily: "Poppins", fontSize: "10px", fontWeight: "500",marginLeft:"30px",paddingTop:"5px",backgroundColor:"rgba(0, 155, 199, 1)"}}> Şirkət haqqında</a>
 </div>
 <br/>
 
