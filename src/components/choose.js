@@ -1,5 +1,5 @@
-  import icon1 from '../photos/Icon5.png'
-  import '../css/choose.css'
+import icon1 from '../photos/Icon5.png'
+import '../css/choose.css'
 export default function Choose(props) {
     const number=[props.id]
     const over=() =>{
@@ -12,8 +12,7 @@ document.getElementById(number).style.backgroundColor="white"  ;
 document.getElementById(number).style.color="rgba(0, 155, 199, 1)"  ;
 
     }
-
-  	return(
+return(
     <div className="card-borderless"  id="choosecard" >
        <div className="choosediv" ><img src={props.src} className="choosei" /></div>
        <div className="choosed" ><p className="choosep" >Pulsuz çatdırılma</p></div>

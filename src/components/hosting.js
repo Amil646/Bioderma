@@ -1,7 +1,7 @@
 import List from '../components/faq-list.js'
 import '../css/faq.css'
 
-export default function Support(style) {
+export default function Hosting() {
 return(   
 	<>
 	  <ul className="faqul">

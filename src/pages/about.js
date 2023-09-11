@@ -3,12 +3,12 @@ import '../css/about.css'
 function About(argument) {
  
 return(
-
     <>
 < div  className="container justify-content-center" id="aboutcon2">
  <div className="row justify-content-center" id="row" >
 
     <div className="col-4 " >
+
      <a href="/sertifikat" className="btn active "target=".self" id="certificate">Uğur və sertifikatlar</a>
     </div>
 

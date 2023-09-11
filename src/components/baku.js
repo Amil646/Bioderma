@@ -1,5 +1,5 @@
-  import Offices from  './offices.js'
-  import '../css/office.css';
+import Offices from  './offices.js'
+import '../css/office.css';
 export default  function Baki(argument) {
 return(
 	
@@ -36,3 +36,4 @@ return(
 	</>
 	)
 }
+

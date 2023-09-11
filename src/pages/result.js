@@ -9,7 +9,7 @@
   import Results from '../components/results.js'
   import Text from '../components/result-text.js'
   
-function Result(argument) {
+export default function Result(argument) {
    
 
 	return(
@@ -69,8 +69,6 @@ function Result(argument) {
  <>
  <More id="1"/>
  </>
-    <br/><br/>
 </>
-		)
+)
 }
-export default Result;

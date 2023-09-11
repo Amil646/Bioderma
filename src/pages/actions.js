@@ -46,9 +46,8 @@ export default  function Aksiyalar(argument) {
         </div>
       </div>
     </div>
-    <br/>
-    <br/>
-
+   <br/>
+   <br/>
     <div className="container justify-content-center" id="actioncon4">
       <div className="row " id="actionsr3" >
         <div className="col-4"   id="actionsc31">

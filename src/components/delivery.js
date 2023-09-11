@@ -9,9 +9,8 @@ return(
      <List id="1" text=" Çatdırılma zamanı ödəniş" /> 
      <List id="2" text="Onlayn ödəniş" /> 
      <List id="3" text="Label"/>
-     
-    </ul>
-    <br/>
+   </ul>
+   <br/>
   </div>
 </>
 	)

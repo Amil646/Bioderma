@@ -50,7 +50,8 @@ export default function Aksiya(argument) {
 
    </div>
   </div>
- </div>
+</div>
+
  <br/>
 
  <div className="container justify-content-center" id="actioncon3">
@@ -60,3 +61,4 @@ export default function Aksiya(argument) {
 </>
 		)
 }
+ 

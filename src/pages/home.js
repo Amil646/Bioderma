@@ -33,7 +33,7 @@ function Index() {
       <a href="/aksiya"  style={{textDecoration:"none"}}>
        <Discount/>
       </a>
-   </div>
+    </div>
   </div>
 </div>
   <div  className="container justify-content-center"  id="homecon1" >

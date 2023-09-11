@@ -5,17 +5,15 @@
 
 export default function More() {
    const over=() =>{
-document.getElementById("1").style.backgroundColor="#54B4D3"  ;
-document.getElementById("1").style.color="white"  ;
-
+    document.getElementById("1").style.backgroundColor="#54B4D3"  ;
+    document.getElementById("1").style.color="white"  ;
     }
      const out=() =>{
-document.getElementById("1").style.backgroundColor="white"  ;
-document.getElementById("1").style.color="rgba(0, 155, 199, 1)"  ;
-
+    document.getElementById("1").style.backgroundColor="white"  ;
+    document.getElementById("1").style.color="rgba(0, 155, 199, 1)"  ;
     }
-	return(
-    <>
+return(
+<>
 <div className="container justify-content-center" id="resultcon2" >
  <div className="row my-5" id="morecon" >
   
@@ -39,3 +37,5 @@ document.getElementById("1").style.color="rgba(0, 155, 199, 1)"  ;
  </>
   )
 }
+
+

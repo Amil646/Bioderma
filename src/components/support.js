@@ -1,6 +1,6 @@
 import '../css/faq.css'
 import List from '../components/faq-list.js'
-export default function Support(style) {
+export default function Support() {
 return(
 <>
  <ul className="faqul">
@@ -13,5 +13,5 @@ return(
        <List id="f8" number="04" text="How can i set up a new website?  " />
  </ul>
 </>
-	)
+ )
 }

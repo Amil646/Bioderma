@@ -1,9 +1,9 @@
- import sekil2 from  '../photos/img41.png'
-  import sekil21 from  '../photos/image12.png'
-  import '../css/discount.css'
+import sekil2 from  '../photos/img41.png'
+import sekil21 from  '../photos/image12.png'
+import '../css/discount.css'
 
 export default function Discount(argument) {
-	return(
+return(
 <>
   <img src={sekil21}   className="discounti" />
   <div className="discountdiv" ><p>Ləkəyə qarşı<br/> <b>Parlaqladıcı</b> qayğı:</p></div>
@@ -18,3 +18,4 @@ export default function Discount(argument) {
 </>
       )
 }
+

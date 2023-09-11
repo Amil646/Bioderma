@@ -4,3 +4,5 @@ export default function Detailed(argument) {
  	  <a  href="/aksiya" className="detailed" > Ətraflı <b>></b></a>
  	)
 }
+
+
