@@ -1,8 +1,5 @@
 export default function Certificate(props){
-	const arr1=props.arr
-    const id1= arr1[0]
-    const id2= arr1[1]
-    const id3= arr1[2]   
+const arr1=props.arr
 const over=() =>{
 document.getElementById(arr1[0]).style.backgroundColor="rgba(0, 155, 199, 1)"  ;
 document.getElementById(arr1[1]).style.color="white"  ;
@@ -21,5 +18,4 @@ return(
        <p id={arr1[2]}  >Lorem ipsum</p>
     </div>
 	)
-
 }
