@@ -1,0 +1,73 @@
+.discounti{
+	index:-1;
+	border-radius:10px;
+	border: 1px solid rgba(219, 51, 51, 1);
+	height: 400px;
+	width: 377px;
+
+	}
+.discountdiv{
+		font-family: Poppins;
+	width:237px;
+	height: 120px;
+	line-height: 27px;
+	text-align: left;
+	font-size:18px;
+	color:#444A51;
+    letter-spacing: 0em;
+    margin-top:-380px;
+    margin-left: 60px;
+    position: absolute;
+}
+.discountdiv2{
+    font-family: Poppins;
+	width:144px;
+	height: 21px;
+	line-height: 21px;
+	text-align: left;
+	font-size:16px;
+    letter-spacing: 0em;
+    margin-top:-130px;
+    margin-left: 60px;
+    position: absolute;
+    color: #757575;
+}
+.discountp{
+	  font-family: Poppins;
+	width:234px;
+	line-height: 21px;
+	text-align: left;
+	font-size:18px;
+	font-weight: 500;
+    letter-spacing: 0em;
+    position: absolute;
+    color: #000;
+    margin-top: -10px;
+}
+.discountdiv3{
+	width:158px;
+	height: 45px;
+    margin-top:-60px;
+    margin-left: 60px;
+    position: absolute;
+    background-color: #DB3333;
+    border-radius: 4px;
+}
+.discountp2{
+	font-family: Poppins;
+    font-style: normal;
+	line-height: 40px;
+	text-align: center;
+	font-size:18px;
+	font-weight: 400;
+    color: white;
+    padding: 2.5px 24px;
+}
+.discountim{
+	border-radius:0px;
+	height: 289px;
+	width: 127px;
+	margin-top: -400px;
+	margin-left: 180px;
+	}
+

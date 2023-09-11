@@ -1,0 +1,180 @@
+#certificate{
+color: rgba(53, 57, 69, 1);
+font-family: Poppins;
+font-weight: 500;
+font-size: 10px;
+letter-spacing: 0em;
+height: 27px;
+width: 170px;
+padding-top: 3px;
+border-radius: 100px;
+border: 1px solid rgba(53, 57, 69, 1);
+background-color: white;
+}
+#brands{
+color: rgba(53, 57, 69, 1);
+font-family: Poppins;
+font-weight: 500;
+font-size: 10px;
+letter-spacing: 0em;
+height: 27px;
+width: 115px;
+margin-left: 40px;
+padding-top: 3px;
+border-radius: 100px;
+border: 1px solid rgba(53, 57, 69, 1);
+background-color: white;
+}
+#about{
+	color: white;
+font-family: Poppins;
+font-weight: 500;
+font-size: 10px;
+letter-spacing: 0em;
+height: 27px;
+width: 145px;
+margin-left: 30px;
+padding-top: 3px;
+border-radius: 100px;
+border: none;
+background-color: rgba(0, 155, 199, 1);
+}
+#row{
+	width: 470px;
+	height: 27px;
+	margin-left: 390px;
+}
+.abouth52{
+	color: rgba(0, 155, 199, 1);
+font-family: Space Grotesk;
+font-weight: 700;
+font-size: 24px;
+letter-spacing: 0em;
+line-height: 31px;
+height: 31px;
+width: 406px;
+margin-left: 45px;
+margin-top: -150px;
+text-align: left;
+
+}
+.abouth51{
+	color: rgba(0, 155, 199, 1);
+font-family: Space Grotesk;
+font-weight: 700;
+font-size: 24px;
+letter-spacing: 0em;
+line-height: 31px;
+height: 31px;
+width: 114px;
+margin-left: 45px;
+margin-top: 20px;
+text-align: left;
+}
+.aboutp1{
+	color: rgba(147, 147, 147, 1);
+font-family: Poppins;
+font-weight: 500;
+font-size: 18px;
+letter-spacing: 0em;
+line-height: 27px;
+height: 500px;
+width: 872px;
+margin-left: 45px;
+margin-top: 20px;
+text-align: left;
+
+}
+.aboutp2{
+	color: rgba(140, 140, 140, 1);
+font-family: Space Grotesk;
+font-weight: 700;
+font-size: 18px;
+letter-spacing: 0em;
+line-height: 23px;
+height: 115px;
+width: 733px;
+margin-left: -5px;
+text-align: left;
+
+}
+.aboutdiv1{
+	width: 773px;
+	height: 153px;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 155, 199, 1);
+	padding: 20px 20px;
+	margin-left: 45px;
+	text-align: left;
+	margin-top: 40px;
+
+}
+.aboutdiv2{
+	width: 773px;
+	height: 138px;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 155, 199, 1);
+	padding: 20px 20px;
+	margin-left: 45px;
+	text-align: left;
+	margin-top: 20px;
+
+}
+.aboutdiv3{
+	width: 773px;
+	height: 86px;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 155, 199, 1);
+	padding: 20px 20px;
+	margin-left: 45px;
+	text-align: left;
+	margin-top: 20px;
+
+}
+.aboutdiv{
+
+	color: rgba(0, 155, 199, 1);
+font-family: Space Grotesk;
+font-weight: 700;
+font-size: 18px;
+letter-spacing: 0em;
+line-height: 23px;
+height: 86px;
+width: 464px;
+text-align: center;
+position: absolute;
+border-radius: 8px;
+border: 1px solid rgba(238, 238, 238, 1);
+padding: 20px 20px;
+margin-top: -120px;
+margin-left: 450px;
+background-color: white;
+} 
+.aboutimg{
+	width:773px ;
+	height: 439px;
+	text-align: left;
+	margin-top:10px ;
+}
+.aboutdiv4{
+		width:872px ;
+		margin-left: -5px;
+}
+#aboutcon{
+	border-radius: 10px;
+	height: 1464px;
+	width: 972px;
+	border: 1px solid rgba(238, 238, 238, 1);
+}
+#aboutcon2{
+	min-width: 1300px;
+	margin-bottom: 50px;
+}
+.aboutb{
+	font-family: Poppins;
+	line-height: 21px;
+	font-size: 18px;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 1);
+	letter-spacing: 0em;
+}

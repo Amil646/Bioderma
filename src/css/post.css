@@ -1,0 +1,38 @@
+.posth {
+    font-family: Poppins;
+	width: 242px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 18px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 1);
+	letter-spacing: 0em;
+	text-align: left;
+	margin-left: 45px;
+} 
+#postcon1{
+	min-width: 1300px;
+	margin-bottom: 50px;
+}
+#postcon2{
+	min-width: 1300px;
+}
+#postdiv{
+	width: 449px;
+	height: 68px;
+	border: 1px solid rgba(238, 238, 238, 1);
+	text-align: center;
+	margin-left: 400px;
+	margin-top: 25px;
+}
+#postrow1{
+	margin-left: -65px;
+	margin-top: -25px;
+}
+#postrow2{
+	margin-left: -65px;
+	margin-top: 25px;
+}
+#postcol1,#postcol2,#postcol4,#postcol3,#postcol5,#postcol6{
+	margin-left: -42px;
+}

@@ -1,0 +1,34 @@
+.pagination{
+	font-family:Poppins ;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 0em;
+	line-height: 20px;
+	margin-top: 15px;
+}
+#pagea1{
+	font-size: 14px;
+	color:rgba(55, 65, 81, 1) ;
+	text-decoration: none;
+	border: none;
+	width: 93px;
+	height: 36px;
+	margin-left: 20px;
+}
+#pagea7{
+	font-size: 14px;
+	color:rgba(55, 65, 81, 1) ;
+	text-decoration: none;
+	border: none;
+	width: 93px;
+	height: 36px;
+}
+#pagea2,#pagea3,#pagea4,#pagea5,#pagea6{
+	font-size: 14px;
+	color:rgba(55, 65, 81, 1) ;
+	text-decoration: none;
+	border: none;
+	width: 36px;
+	height: 36px;
+
+}

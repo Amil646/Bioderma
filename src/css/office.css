@@ -1,0 +1,133 @@
+.list {
+	width:250px;
+	height:83px;
+	text-align:left;
+	margin-left:-110px;
+	border-radius:6px;
+	border:1px solid rgba(238, 238, 238, 1);
+	margin-top:10px;
+}
+
+.div {width:250px;
+	height:302px;
+	position:relative}
+.ul {
+	list-style: none;
+	text-align:left;
+	margin-left:100px;
+	margin-top:-15px;
+	position:relative;
+	 }
+.a{
+	text-decoration: none;
+}
+.p1 {font-family: Poppins;
+	width:39px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 10px;
+	font-weight:500;
+	color:rgba(0, 0, 0, 1);
+    letter-spacing: 0em;
+	margin-top:10px;
+	margin-left:20px;
+        }
+.p2 {font-family: Poppins;
+	width:120px;
+	height: 14px;
+	line-height: 14px;
+	font-size:9px;
+	font-weight:400;
+	color:rgba(117, 117, 117, 1);
+    letter-spacing: 0em;
+	margin-top:-15px;
+	margin-left:20px;
+        }
+.p3 {font-family: Poppins;
+	width:120px;
+	height: 14px;
+	line-height: 14px;
+	font-size:9px;
+	font-weight:400;
+	color:rgba(0, 155, 199, 1);
+    letter-spacing: 0em;
+	margin-top:-10px;
+	margin-left:20px;
+        }  
+
+ .div1{
+ 	width:28px;
+ 	height:28px;
+ 	border-radius:90px;
+ 	background-color:rgba(238, 238, 238, 1);
+ 	border:none;
+ 	position:absolute;
+ 	margin-left:200px;
+ 	margin-top:-60px;
+ }       
+.p{
+	margin-left: 9px;
+}
+ .officediv{
+    width: 290px;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid rgba(238, 238, 238, 1);
+ }
+ .officeh{
+ 	font-family: Poppins;
+	width: 186px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 20px;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 1);
+	letter-spacing: 0em;
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 20px;
+ } 
+ .officediv2{
+	margin-left: -5px;
+	margin-top: -20px;
+ } 
+ .officebtn1{
+ 	text-decoration: none;
+ 	font-family: Poppins;
+ 	border-radius: 100px;
+ 	background-color:rgba(0, 155, 199, 1) ;
+ 	border: none;
+ 	width: 115px;
+ 	height: 28px;
+ 	line-height: 16px;
+ 	font-size: 12px;
+ 	font-weight: 600;
+ 	color: rgba(252, 252, 253, 1);
+ 	letter-spacing: 0em;
+ 	text-align: center;
+ 	margin-left: 10px;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ }
+   .officebtn2{
+ 	text-decoration: none;
+ 	font-family: Poppins;
+ 	border-radius: 100px;
+ 	background-color:white ;
+ 	border: 1px solid rgba(53, 57, 69, 1);
+ 	width: 115px;
+ 	height: 28px;
+ 	line-height: 16px;
+ 	font-size: 12px;
+ 	font-weight: 600;
+ 	color: rgba(53, 57, 69, 1);
+ 	letter-spacing: 0em;
+ 	text-align: center;
+ 	margin-left: 20px;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ }  

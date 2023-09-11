@@ -1,73 +1,47 @@
  import 'bootstrap/dist/css/bootstrap.min.css';
- import sekil1 from  '../sekil/img51.png'
-import sekil2 from  '../sekil/img52.png'
-import sekil3 from  '../sekil/img53.png'
-import sekil4 from  '../sekil/img54.png'
-function Body(){
-  const stil={
-    fontFamily: "Poppins",
-fontSize: "14px",
-fontWeight: "400",
-lineHeight: "21px",
-letterSpacing: "0em",
-color: "black",
-}
+ import sekil1 from  '../photos/img51.png'
+import sekil2 from  '../photos/img52.png'
+import sekil3 from  '../photos/img53.png'
+import sekil4 from  '../photos/img54.png'
+import '../css/navbar.css'
+export default function Body(){
+  
   return(
-
-
-  <>
-
-     <div className="container-fluid" style={{backgroundColor:"rgba(255, 197, 45, 1)",minWidth:"1300px",height:"110px",marginTop:"-100px"}}   >
+<>
+ <div className="container-fluid" id="navbarcon" >
     
-<ul class="nav justify-content-center" >
-<li class="nav-item " style={{marginLeft:"-40px"}}>
+  <ul class="nav justify-content-center" >
+   <li class="nav-item " id="navbarli1" ><img src={sekil1} className="navbarimg"/></li>
 
-  <img src={sekil1}  height= "110px"
-width="86px"  />
-  </li>
-  <li class="nav-item " style={{marginLeft:"10px",textAlign:"left",marginTop:"30px"}}>
-<span style={stil}>Səhiyyə mütəxəssisləri ilə <br/>40 illik iş təcrübəsi</span> </li>
-<li>
-<div  style={{marginLeft:"30px",borderRight: "1px solid rgba(197, 165, 77, 1)", height: "43px",position:"relative",marginTop:"30px"}}>
-</div> </li>
-<li class="nav-item "  style={{marginLeft:"10px",}}>
+   <li class="nav-item " id="navbarli2" >
+     <span className="span">Səhiyyə mütəxəssisləri ilə <br/>40 illik iş təcrübəsi</span> </li>
 
-  <img src={sekil2}  height= "110px"
-width="86px"/>
-  </li>
-  <li class="nav-item " style={{textAlign:"left",marginTop:"40px"}}>
-<span style={stil}>Dəriyə dərin hörmət</span> </li>
-<li>
-<div  style={{marginLeft:"50px",borderRight: "1px solid rgba(197, 165, 77, 1)", height: "43px",position:"relative",marginTop:"30px"}}>
-</div> </li>
-<li class="nav-item " style={{marginLeft:"10px",}}>
+   <li><div  className="navbard1"></div></li>
 
-  <img src={sekil3}  height= "110px"
-width="86px"/>
-  </li>
-  <li class="nav-item " style={{textAlign:"left",marginTop:"30px",}}>
-<span style={stil}>Effektivlik və təhlükəsizlik tibbi <br/>
-nəzarət altında sınaqdan keçirilmişdir</span></li>
-<li>
-<div  style={{marginLeft:"20px",borderRight: "1px solid rgba(197, 165, 77, 1)", height: "43px",position:"relative",marginTop:"30px"}}>
-</div> </li>
-<li class="nav-item "  style={{marginLeft:"10px",}} >
+   <li class="nav-item "   id="navbarli3"><img src={sekil2}  className="navbarimg"/></li>
 
-  <img src={sekil4}  height= "110px"
-width="86px"/>
-  </li>
-  <li class="nav-item " style={{textAlign:"left",marginTop:"30px"}}>
-<span style={stil}>Səhiyyə mütəxəssisləri ilə <br/>
-40 illik iş təcrübəsi</span> 
- </li>
+   <li class="nav-item " id="navbarli4">
+     <span className="span">Dəriyə dərin hörmət</span> </li>
+
+   <li><div  className="navbard2"></div></li>
+
+   <li class="nav-item " id="navbarli5" ><img src={sekil3}  className="navbarimg"/></li>
+
+   <li class="nav-item " id="navbarli6" >
+     <span className="span">Effektivlik və təhlükəsizlik tibbi <br/>
+       nəzarət altında sınaqdan keçirilmişdir</span>
+   </li>
+
+    <li><div  className="navbard3"></div></li>
+
+    <li class="nav-item" id="navbarli8"  ><img src={sekil4}  className="navbarimg"/></li>
+
+    <li class="nav-item " id="navbarli7" >
+       <span className="span">Səhiyyə mütəxəssisləri ilə <br/>40 illik iş təcrübəsi</span> 
+    </li>
 
   </ul>
-    
-        </div>
-
- 
-  
-  </>
+ </div>
+</>
 );
 }
-export default Body;

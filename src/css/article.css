@@ -1,0 +1,55 @@
+#card1{
+	width: 278px;
+	border-radius: 6px;
+	margin-left: 95px;
+}
+.carddiv{
+   	width: 278px;
+   height: 200px;
+   overflow: hidden;	
+}
+.cardi{
+   width: 278px;
+   height: 200px;
+
+}
+.cardi:hover {
+
+  transform: scale(1.1); 
+}
+.cardh{
+	width: 242px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: Poppins;
+	color: rgba(0, 0, 0, 1);
+	letter-spacing: 0em;
+	text-align: left;
+	margin-top: 10px;
+}
+#cardp{
+	line-height: 18px;
+	font-size: 12px;
+	font-weight: 400;
+	font-family: Poppins;
+	color: rgba(117, 117, 117, 1);
+	letter-spacing: 0em;
+	text-align: left;
+	width: 200px;
+} 
+.btn{
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: Poppins;
+	color: rgba(117, 117, 117, 1); 
+	letter-spacing: 0em;
+	text-align: center;
+	height: 45px;
+	width: 238px;
+	background-color: rgba(238, 238, 238, 1);
+	padding-top: 10px;
+
+}

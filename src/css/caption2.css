@@ -1,0 +1,32 @@
+.caption2i{
+	z-index:-1;
+	margin-left: 85px;
+	border-radius:10px ;
+	height: 400px;
+	width: 773px;
+}
+.caption2a{
+	text-decoration: none;
+}
+.caption2d{
+	font-family: Poppins;
+	width:273px;
+	height: 120px;
+	line-height: 40px;
+	text-align: left;
+	font-size:28px;
+	color:#444A51;
+    letter-spacing: 0em;
+    margin-top:-270px;
+    margin-left: 140px;
+    position: relative;
+}
+.caption2b{
+		color:#009BC7;
+
+}
+.caption2im{
+	margin-left: 600px;
+	margin-top: -150px;
+	border-radius: 0px;
+}

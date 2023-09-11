@@ -1,0 +1,65 @@
+.caption1{
+	width: 1300px;
+	height:300px ;
+	border-radius:10px ;
+	margin-left: -30px;
+}
+.caption2{
+	z-index: 1;
+	margin-left: 890px;
+	margin-top: 30px;
+    position: absolute;
+}
+.captioni{
+	border-radius: 10px;
+	width: 1170px;
+	height:300px ;
+}
+.captionp{
+	margin-top: -40px;
+}
+.caption3{
+	font-family: Poppins;
+	width:237px;
+	height: 72px;
+	line-height: 36px;
+	text-align: left;
+	font-size:24px;
+	font-weight:600;
+	color:rgba(255, 255, 255, 1);
+    letter-spacing: 0em;
+    margin-top:-270px;
+    margin-left: 115px;
+}
+.caption4{
+	font-family: Poppins;
+	line-height: 21px;
+	text-align: left;
+	font-size:16px;
+	font-weight:400;
+    letter-spacing: 0em;
+    margin-top:-70px;
+}
+.caption5{
+	font-family: Poppins;
+	line-height: 21px;
+	text-align: left;
+	font-size:18px;
+	font-weight:500;
+	color:rgba(0, 0, 0, 1);
+    letter-spacing: 0em;
+    margin-top:-10px;
+    position: absolute;
+}
+.chr{
+	background-color: white;
+	width:100px;
+	height: 3px;
+}
+#carousel1{
+	width: 1300px;
+	height: 300px;
+	min-width: 1300px;
+	text-align: center;
+	border-radius: 10px;
+}

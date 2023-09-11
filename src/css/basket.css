@@ -1,0 +1,377 @@
+#basketcon{
+	min-width: 1300px;
+	margin-bottom: 50px;
+}
+#basketcon2,#basketcon3{
+	min-width: 1300px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.basketdiv1{
+	z-index: 2;
+	margin-top: -160px;
+	position: absolute;
+	min-width: 1300px;
+	margin-left: 350px;
+} 
+.basketdiv2{
+	width: 525px;
+	height: 800px;
+	border-radius: 10px;
+	border: none;
+	background-color: white;
+	overflow-y:scroll ;
+	overflow-x: hidden;
+}
+.basketbutton{
+	background: none;
+	border: none;
+}
+.basketimg{
+	height: 24px;
+	width: 24px;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+.basketp1{
+	font-family: Poppins;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 36px;
+	letter-spacing: 0em;
+	height: 36px;
+	width: 220px;
+	color: rgba(68, 74, 81, 1);
+	margin-left: 150px;
+}
+.basketform{
+	width: 430px;
+	height: 700px;
+	text-align: left;
+	background-color: white;
+	margin-left: 40px;
+}
+.basketinput1{
+	width: 204px;
+	height: 40px;
+	border-radius: 6px;
+	border: 1px solid rgba(186, 189, 195, 1);
+	margin-left: 10px;
+}
+.basketinput2{
+	width: 204px;
+	height: 40px;
+	border-radius: 6px;
+	border: 1px solid rgba(186, 189, 195, 1);
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.basketinput4{
+	width: 418px;
+	height: 40px;
+	border-radius: 6px;
+	border: 1px solid rgba(186, 189, 195, 1);
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.basketinput3{
+	width: 418px;
+	height: 99px;
+	border-radius: 6px;
+	border: 1px solid rgba(186, 189, 195, 1);
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.basketdiv3{
+	width: 418px;
+	height: 99px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.basketlabel{
+		font-family: Poppins;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0em;
+	height: 18px;
+	width: 150px;
+	color: rgba(186, 189, 195, 1);
+}
+.basketdiv4{
+	width: 418px;
+	height: 64px;
+	border-radius: 6px;
+	border: 1px solid rgba(238, 238, 238, 1);
+    background-color: white;
+}
+.basketdiv5{
+	width: 418px;
+	height: 64px;
+	border-radius: 6px;
+	border: 1px solid rgba(238, 238, 238, 1);
+    background-color: white;
+    margin-top: 20px;
+}
+.basketlabel1{
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 22px;
+	letter-spacing: 0em;
+	width: 278px;
+	color: rgba(0, 0, 0, 1);
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.basketimg2{
+	height: 24px;
+	width: 24px;
+	margin-right: 20px;
+}
+.basketradio{
+	margin-left: 80px;
+}
+.basketbtn{
+		width: 418px;
+		height: 45px;
+		margin-left: 10px;
+	    margin-top: 20px;
+	    background-color: rgba(0, 155, 199, 1);
+	    font-family: Poppins;
+	    font-size: 16px;
+	    font-weight: 500;
+	    line-height: 20px;
+	    letter-spacing: 0em;
+	    color: rgba(255, 255, 255, 1);
+	    border-radius: 4px;
+	    border: none;
+}
+.basketbtn2{
+		width: 220px;
+		height: 45px;
+	    margin-top: 30px;
+	    background-color: rgba(0, 155, 199, 1);
+	    font-family: Poppins;
+	    font-size: 16px;
+	    font-weight: 400;
+	    line-height: 20px;
+	    letter-spacing: 0em;
+	    color: rgba(255, 255, 255, 1);
+	    border-radius: 4px;
+	    border: none;
+	    text-align: center;
+}
+.basketdiv6{
+	margin-left: 350px;
+	position: absolute;
+	z-index: 2;
+}
+.basketdiv61{
+	width: 525px;
+	height: 438px;
+	border-radius: 10px;
+	border: none;
+	background-color: white;
+}
+.basketdiv62{
+	width: 185px;
+	height: 185px;
+	border-radius: 167px;
+    margin-left: 170px;
+	background-color: rgba(0, 155, 199, 0.1);
+}
+.basketdiv63{
+	width: 111.64px;
+	height: 111.64px;
+	border-radius: 104px;
+    margin-left: 40px;
+    margin-top: 35px;
+    position: absolute;
+	background-color: rgba(0, 155, 199, 0.2);
+}
+.basketdiv64{
+	width: 337px;
+	height: 54px;
+    margin-left: 90px;
+    margin-top: 20px;
+ }
+.basketimg3{
+	height: 56px;
+	width: 56px;
+	margin-left: 10px;
+	margin-top: 28px;
+}  
+.basketp2{
+	    font-family: Poppins;
+	    font-size: 18px;
+	    font-weight: 600;
+	    line-height: 27px;
+	    letter-spacing: 0em;
+	    color: rgba(0, 155, 199, 1);
+}
+.basketp3{
+	    font-family: Poppins;
+	    font-size: 18px;
+	    font-weight: 500;
+	    line-height: 27px;
+	    letter-spacing: 0em;
+	    color: rgba(7, 7, 7, 1);
+}
+.basketh{
+	font-family: Poppins;
+	width: 242px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 18px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 1);
+	letter-spacing: 0em;
+	text-align: left;
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+#basketr{
+	width: 873px;
+	height: 278px;
+	border-radius: 10px;
+	border: 1px solid rgba(238, 238, 238, 1);
+	margin-left: 50px;
+}
+#basketr1{
+	width: 873px;
+	height: 278px;
+	border-radius: 10px;
+	border: 1px solid rgba(238, 238, 238, 1);
+	margin-left: 50px;
+	margin-top: 20px;
+}
+#basketc,#basketc2{
+	margin-left: -13px;
+}
+.basketp4{
+	font-family: Poppins;
+	width: 100px;
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	font-style: normal;
+	color: rgba(117, 117, 117, 1);
+	letter-spacing: 0em;
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.removebtn{
+	text-align: right;
+	width: 50px;
+	height: 50px;
+    padding: 8px;
+	background: rgba(238, 238, 238, 1);
+    border-radius: 10px;
+    border: 1px solid rgba(238, 238, 238, 1);
+    margin-left: 500px;
+    margin-top: -40px;
+    position: absolute;
+}
+.basketdiv7{
+	width: 500px;
+	height: 72px;
+	margin-left: 20px;
+	line-height: 22px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: bold;
+	font-weight: 600;
+	font-size: 18px;
+}
+.basketdiv71{
+	width: 87px;
+	height: 26px;
+	background: rgba(0, 155, 199, 1);
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+.basketdiv72{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -50px;
+}
+.basketp5{
+	font-family: Poppins;
+	padding: 4px 8px;
+	line-height: 18px;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	letter-spacing: 0em;
+	text-align: center;
+}
+.basketp6{
+	font-family: Poppins;
+	line-height: 18px;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	color: rgba(155, 155, 155, 1);
+	letter-spacing: 0em;
+	position: absolute;
+	text-decoration: line-through;
+	margin-left: 140px;
+	margin-top: 15px;
+}
+.basketb{
+	font-family: Poppins;
+	line-height: 21px;
+	font-size: 18px;
+	font-weight: 500;
+	font-style: bold;
+	color: black;
+	letter-spacing: 0em;
+	position: absolute;
+	text-decoration: none;
+	margin-left: 220px;
+	margin-top: 13px;
+	width: 100px;
+}
+.orderbtn{
+	text-align: center;
+	width: 237px;
+	height: 45px;
+    color: white;
+	background: rgba(0, 155, 199, 1);
+    border-radius: 4px;
+    border: none;
+    margin-left: 20px;
+    margin-top: -10px;
+    line-height: 21px;
+	font-size: 16px;
+	font-weight: 400;
+}
+#basketd{
+	width: 277px;
+	height: 277px;
+	position: absolute;
+	margin-left: 950px;
+	margin-top: -278px;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 155, 199, 1);
+} 
+.basketdiv8{
+	margin-top: 30px;
+	width: 277px;
+	height: 20px;
+	position: absolute;
+}
+.basketa{
+    color: rgba(0, 155, 199, 1);
+    width: 201px;
+    margin-left: 50px;
+    line-height: 21px;
+	font-size: 16px;
+	font-weight: 500;
+	position: absolute;
+    font-family: Poppins;
+} 

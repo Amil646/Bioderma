@@ -1,0 +1,38 @@
+#rcard{
+	height: 408px;
+	width: 380px;
+	margin-left: 95px;
+}
+.rdiv{
+	height: 400px;
+	width: 377px;
+	overflow: hidden;
+}
+.rimg{
+	width: 380px;
+	height: 400px;
+}
+.rimg:hover{
+   transform: scale(1.1); 
+}
+#rp{
+	color: rgba(117, 117, 117, 1);
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: center;
+	margin-left: 30px;
+}
+#ra{
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-left: 30px;
+	height: 45px;
+	width: 278px;
+	border: 1px solid rgba(4, 4, 4, 1);
+	background-color: white;
+	color: rgba(16, 16, 16, 1);
+}

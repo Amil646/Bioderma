@@ -1,0 +1,15 @@
+.divc{ width:100px;
+	height:45px;
+	text-align:center;
+	padding-top:5px;
+	border-radius:4px;
+	border:1px solid rgba(155, 155, 155, 1);
+}
+.signs{width:24px;
+	height:24px;
+	border:none;
+	font-size:20px;
+	    background:none;
+	 padding-right: 10px;
+	    color:rgba(155, 155, 155, 1);
+	}

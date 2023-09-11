@@ -1,0 +1,112 @@
+.faqp{
+	font-family: Poppins;
+  font-weight: 400;
+  line-height: 24px;
+  position: absolute;
+  font-size:16px;
+  color:rgba(119, 126, 144, 1);
+  letter-spacing: 0em;
+  margin-left: -20px;
+}
+.faqp2{ 
+	font-family: Poppins;
+	width:546px ;
+	height: 35px;
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+  font-size:16px;
+  color:rgba(35, 38, 47, 1);
+  letter-spacing: 0em;
+  margin-left: 20px;
+}
+.faqhr{
+	margin-top:-10px ;
+	margin-left: -20px;
+	width: 546px;
+}
+.ftext{
+  font-family: Poppins;
+  width:465px ;
+  height: 144px;
+  font-weight: 400;
+  line-height: 24px;
+  font-size:14px;
+  color:rgba(119, 126, 144, 1);
+  letter-spacing: 0em;
+  list-style: none;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: -50px;
+}
+.faqul{
+  list-style: none;
+  text-align: left;
+  font-family: Poppins;
+  width:546px ;
+  height: 200px;
+  line-height: 21px;
+  font-size:10px;
+  font-weight:400;
+  color:rgba(0, 0, 0, 1);
+  letter-spacing: 0em;
+  margin-left: 100px;
+  margin-top: 30px;
+  position:absolute;
+  overflow:hidden;
+  overflow-y:scroll; 
+}
+#faqdiv{
+  width: 736px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+.faqh{
+  text-align: center;
+  font-family: Poppins;
+  width:736px ;
+  line-height: 56px;
+  font-size:50px;
+  font-weight:600;
+  color:rgba(0, 0, 0, 1);
+  letter-spacing: ;: 0em;
+} 
+.faqactive{
+   text-align: center;
+  font-family: Poppins;
+  line-height: 16px;
+  font-size:16px;
+  font-weight:600;
+  color:white;
+  letter-spacing:0em;
+  width:81px ;
+  height: 28px;
+  text-decoration: none;
+  border-radius: 100px;
+  background-color:rgba(53, 57, 69, 1) ;
+  border: none;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+} 
+.faqbtn{
+  text-align: center;
+  font-family: Poppins;
+  line-height: 16px;
+  font-size:16px;
+  font-weight:600;
+  background-color: white;
+  letter-spacing:0em;
+  width:81px ;
+  height: 28px;
+  text-decoration: none;
+  border-radius: 100px;
+  color:rgba(119, 126, 144, 1) ;
+  border: none;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}    
+.faqnav{
+  margin-left: 180px;
+}    

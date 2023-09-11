@@ -1,0 +1,84 @@
+.choosei:hover{
+   transform: scale(1.1); 
+}
+.choosei{
+  margin-top:50px;
+  height: 178px ;
+  width: 78px;
+}
+.choosed{
+   width:122px;
+  height:26px;
+  margin-top:-268px;
+  border-radius:4px;
+  background-color:#DB3333 ;
+  position: absolute;
+  margin-left: 120px;
+}
+.choosed2{ 
+   width:87px;
+  height:26px;
+  margin-top:-268px;
+  border-radius:4px;
+  background-color:rgba(0, 155, 199, 1) ;
+  position: absolute;
+  margin-left: 10px;
+}  
+.choosep{
+  font-family: Poppins;
+font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  font-size:12px;
+  color:white;
+  font-style: normal;
+  padding: 4px 8px;
+} 
+
+#choosep2{
+  text-align: left;
+  margin-top: 10px;
+}
+#choosep3{
+  font-family: Poppins;
+font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  font-size:18px;
+  color:#444A51;
+  letter-spacing: 0em;
+}
+.choosediv{
+  height: 278px ;
+  width: 278px;
+  background-color: rgba(238, 238, 238, 1);
+}
+.chooseicon{
+  height: 24px;
+  width: 24px;
+  margin-left: 10px;
+}
+.choosea1{
+  height: 45px;
+  width: 278px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: white; 
+  color: rgba(0, 155, 199, 1);
+  border-radius: 4px;
+  border: 1px solid rgba(0, 155, 199, 1);
+  text-decoration: none;
+  padding: 10px 80px;
+}
+
+#harvestsr{
+  margin-left: -60px;
+}
+#harvestsc1,#harvestsc2,#harvestsc3{
+  margin-left: -40px;
+}
+#choosecard{
+  width: 278px;
+  margin-left: 95px;
+}

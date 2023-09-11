@@ -1,0 +1,87 @@
+#vcard1{
+	width: 278px;
+	border-radius: 6px;
+	margin-left: 95px;
+}
+.vcarddiv{
+   	width: 278px;
+   height: 200px;
+   overflow: hidden;	
+}
+.vcardi{
+   width: 278px;
+   height: 200px;
+
+}
+.vcardi:hover {
+
+  transform: scale(1.1); 
+}
+.vcardh{
+	width: 242px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: Poppins;
+	color: rgba(0, 0, 0, 1);
+	letter-spacing: 0em;
+	text-align: left;
+	margin-top: 10px;
+}
+#vcardp{
+	line-height: 18px;
+	font-size: 12px;
+	font-weight: 400;
+	font-family: Poppins;
+	color: rgba(117, 117, 117, 1);
+	letter-spacing: 0em;
+	text-align: left;
+	width: 200px;
+} 
+.btn{
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: Poppins;
+	color: rgba(117, 117, 117, 1);
+	letter-spacing: 0em;
+	text-align: center;
+	height: 45px;
+	width: 238px;
+	background-color: rgba(238, 238, 238, 1);
+	padding-top: 10px;
+
+}
+.doctorh {
+    font-family: Poppins;
+	width: 242px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 18px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 1);
+	letter-spacing: 0em;
+	text-align: left;
+	margin-left: 45px;
+	margin-top: -30px;
+}
+#doctorcon1{
+	min-width: 1300px;
+	margin-bottom: 50px;
+}
+#doctorr{
+	width: 449px;
+	height: 68px;
+	border: 1px solid rgba(238, 238, 238, 1);
+	text-align: center;
+	margin-left: 400px;
+	margin-top: 25px;
+}
+#doctor1,#doctor2{
+	margin-left: -65px;
+	margin-top: -25px;
+}
+#video3,#video4,#video2,#video6,#video7,#video8{
+	margin-left: -40px;
+}

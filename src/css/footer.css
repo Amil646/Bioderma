@@ -1,0 +1,134 @@
+.footerp{
+	width: 195px;
+	height: 72px;
+	font-family: Poppins;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #282828;
+	margin-left: 50px;
+}
+.footerdiv{
+	border-right: 1px solid rgba(229, 218, 212, 1) ;
+	height: 380px;
+	margin-top: -150px;
+}
+.footerh{
+	width: 177px;
+	height: 24px;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 43px;
+
+}
+ .footera{
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	color: rgba(117, 117, 117, 1);
+	text-decoration: none;
+ } 
+ .footerul{
+ 	list-style: none;
+ 	margin-left: -20px;
+ }
+ .footerimg{
+ 	height: 99px;
+ 	width: 150px;
+ 	margin-left: -50px;
+ }
+ .footerli{
+ 	text-align: left;
+ }
+ .footerdiv2{
+ 	border-radius: 10px;
+ 	height: 123px;
+ 	width: 175px;
+ 	border: 1px solid #9CA3AF;
+ 	margin-left: 330px;
+ 	margin-top: -130px;
+ 	position: absolute;
+
+ }
+ .footerimg2{
+ 	height: 22px;
+ 	width: 150px;
+ 	margin-left: 5px;
+ 	margin-top: 30px;
+ }
+ .footerimg3{
+ 	height: 45px;
+ 	width: 150px;
+ 	margin-left: 5px;
+ 	margin-top: 15px;
+ }
+ .footerimg4{
+ 	height: 19px;
+ 	width: 150px;
+ 	margin-left: 5px;
+ 	margin-top: 31px;
+ }
+ .footerimg21{
+ 	height: 24px;
+ 	width: 24px;
+ 	margin-top: 30px;
+ }
+ .footerimg22{
+ 	height: 24px;
+ 	width: 24px;
+ 	margin-left:16px;
+ 	margin-top: 30px;
+ }
+ .footerimg31{
+ 	height: 24px;
+ 	width: 24px;
+ 	margin-top: 20px;
+ }
+ .footerimg32{
+ 	height: 24px;
+ 	width: 24px;
+ 	margin-left:16px;
+ 	margin-top: 20px;
+ }
+ .footerp2{
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+	color:rgba(160, 160, 160, 1);
+	margin-left: 40px;
+ }
+ .footerp3{
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: right;
+	color: rgba(160, 160, 160, 1);
+ }
+ .footerimg5{
+ 	height: 24px;
+ 	width: 24px;
+    margin-right: 10px;
+ }
+ #footercon{
+    min-width: 1300px;
+    height:508px 
+ }
+  #footercon1{
+ 	width: 1210px;
+ 	height: 30px;
+ 	min-width: 1300px;
+ }

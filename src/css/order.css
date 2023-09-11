@@ -1,0 +1,53 @@
+.orderh{
+	font-family: Poppins;
+	width: 242px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 0em;
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	color: rgba(0, 0, 0, 1);
+
+}
+.orderhr{
+	width: 237px;
+	margin-left: 20px;
+    background-color: rgba(238, 238, 238, 1);
+}
+.orderpre{
+   font-family: Poppins;
+	line-height: 18px;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0em;
+	margin-left: 20px;
+	color: rgba(155, 155, 155, 1);	
+}
+.orderb{
+   font-family: Poppins;
+	line-height: 12px;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0em;
+	color: rgba(68, 74, 81, 1);	
+}
+.orderpre2{
+   font-family: Poppins;
+	line-height: 21px;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0em;
+	margin-left: 20px;
+	color: rgba(0, 155, 199, 1);	
+}
+.orderb2{
+   font-family: Poppins;
+	line-height: 21px;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0em;
+	color: rgba(68, 74, 81, 1);	
+} 

@@ -1,0 +1,48 @@
+.blogh{
+	font-family: Poppins;
+	width: 242px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 18px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 1);
+	letter-spacing: 0em;
+	text-align: left;
+	margin-left: 45px;
+}
+.blogh2{
+	font-family: Poppins;
+	width: 242px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 18px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 1);
+	letter-spacing: 0em;
+	text-align: left;
+	margin-left: 45px;
+	margin-top: -60px;
+}
+#blogcon,#blogcon2{
+	min-width: 1300px;
+	margin-bottom: 50px;
+}
+#blogcon3{
+	min-width: 1300px;
+}
+.blogp{
+	width: 1180px;
+	height: 500px;
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	letter-spacing: 0em;
+	color: rgba(147, 147, 147, 1);
+	text-align: left;
+	margin-left: 45px;
+}
+#blogrow{
+	margin-left: -65px;
+	margin-top: -25px;
+}

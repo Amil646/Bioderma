@@ -1,0 +1,43 @@
+#actionscon1{
+	min-width: 1300px;
+	margin-bottom: 50px;
+}
+#actioncon2,#actioncon5,#actioncon3,#actioncon4{
+	width: 1300px;
+	min-width: 1300px;
+	margin-top: -20px;
+}
+.actionsh{
+	font-family: Poppins;
+	width: 242px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 18px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 1);
+	letter-spacing: 0em;
+	text-align: left;
+	margin-left: 45px;
+}
+#actionsr1,#actionsr3{
+	margin-left: -85px;
+}
+#actionsr4,#actionsr2{
+	margin-left: 60px;
+}
+
+#actionsc11,#actionsc31{
+	margin-left: 80px;
+}
+#actionsc12,#actionsc13,#actionsc32,#actionsc33{
+	margin-left: -45px;
+
+}#actionsc21,#actionsc41{
+	margin-left: 10px;
+}
+#actionsc22,#actionsc42{
+	margin-left:155px;
+}
+#actionsc23,#actionsc43{
+	margin-left:200px;
+}

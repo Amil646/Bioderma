@@ -1,0 +1,23 @@
+#htext{
+	 font-family: Poppins;
+font-weight: 500;
+  line-height: 20px;
+  font-size:16px;
+  color:#FFF;
+  padding-top: 10px;
+  margin-left: 350px;
+}
+#hnumber{
+	font-family: Poppins;
+font-weight: 500;
+  line-height: 20px;
+  font-size:16px;
+  color:#FFF;
+  padding-top: 10px;
+  margin-left: 270px;
+}
+#headercon{
+  min-width: 1300px;
+  height: 40px;
+  background-color: rgba(107, 172, 200, 1);
+}

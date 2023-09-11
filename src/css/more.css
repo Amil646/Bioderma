@@ -1,0 +1,22 @@
+.more1{
+	height: 400px;
+	width: 575px;
+	margin-left: 85px;
+   transition: 0.3s;
+}
+.more2{
+	height: 400px;
+	width: 575px;
+	margin-left: 30px;
+    transition: 0.3s;
+}
+.more2:hover {
+  transform: translate(0, -10px);
+}
+.more1:hover {
+  transform: translate(0, -10px);
+}
+#morecon{
+	width: 1300px;
+	margin-left: -60px;
+}

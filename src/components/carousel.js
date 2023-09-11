@@ -1,21 +1,23 @@
   import Carousel from 'react-bootstrap/Carousel';
-  import sekil9 from  '../sekil/image40.png'
+  import sekil9 from  '../photos/image40.png'
 import Caption from './caption.js'
+import '../css/caption.css'
 
 function Carousell() {
   return (
-    <Carousel controls={false} style={{width:"1300px",height:"300px",minWidth:"1300px",textAlign: "Center",borderRadius:"10px"}}>
-        <Carousel.Item  >
-    <Caption/>
-          </Carousel.Item>
+    <Carousel controls={false} id="carousel1" >
+      <Carousel.Item  >
+          <Caption/>
+        </Carousel.Item>
+
       <Carousel.Item interval={1000}>
           <Caption/>
-
       </Carousel.Item>
+
       <Carousel.Item interval={1000}>
           <Caption/>
-
       </Carousel.Item>
+      
     </Carousel>
   );
 }

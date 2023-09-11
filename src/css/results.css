@@ -1,0 +1,53 @@
+.resultsi:hover {
+  transform: scale(1.1); 
+}
+.resultsi{
+  margin-top:50px;
+  height: 96px ;
+  width: 42px;
+}
+#resultsp1{
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  font-size:14px;
+  color:rgba(117, 117, 117, 1);
+  letter-spacing: 0em;
+  margin-top: 10px;
+}
+#resultsp2{
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  font-size:14px;
+  color:rgba(0, 0, 0, 1);
+  letter-spacing: 0em;
+  margin-top: 10px;
+}
+
+#resultsp3{
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  font-size:18px;
+  color:rgba(68, 74, 81, 1);
+  letter-spacing: 0em;
+}
+.resultsdiv{
+  height: 200px ;
+  width: 178px;
+  background-color: rgba(238, 238, 238, 1);
+}
+#results1,#results2,#results3{
+  margin-left: -40px;
+}
+#resultscard{
+  width: 178px;
+  height: 303px;
+  margin-left: 95px;
+}
+
+

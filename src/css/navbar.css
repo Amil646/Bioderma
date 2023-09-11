@@ -1,0 +1,58 @@
+.span{
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0em;
+	line-height: 21px;
+	color: black;
+}
+.navbarimg{
+	width: 86px;
+	height: 110px;
+}
+.navbard1{
+    margin-left: 30px;
+    border-right: 1px solid rgba(197, 165, 77, 1);
+    height: 43px;
+    position: relative;
+    margin-top: 30px;
+}
+.navbard2{
+    margin-left: 50px;
+    border-right: 1px solid rgba(197, 165, 77, 1);
+    height: 43px;
+    position: relative;
+    margin-top: 30px;
+}
+.navbard3{
+    margin-left: 20px;
+    border-right: 1px solid rgba(197, 165, 77, 1);
+    height: 43px;
+    position: relative;
+    margin-top: 30px;
+}
+#navbarcon{
+    min-width: 1300px;
+    height: 110px;
+    margin-top: -100px;
+    background-color: rgba(255, 197, 45, 1);
+}
+#navbarli2{
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: left;
+} 
+#navbarli1{
+    margin-left: -40px;
+}
+#navbarli3,#navbarli5,#navbarli8{
+    margin-left: 10px;
+}
+#navbarli4{
+    margin-top: 40px;
+    text-align: left;
+}
+#navbarli6,#navbarli7{
+    margin-top: 30px;
+    text-align: left;
+}
